@@ -3,15 +3,44 @@
 <head>
 	<meta charset="UTF-8">
 	<title>hello world</title>
+	<link rel="stylesheet" href="assets/bootstrap-3.3.6-dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-	<div class="wrapper">
-		<div class="header"><div>
-		<div class="content">
-			<p>hello world<p>
-		<div>
-		<div class="footer"><div>
-	<div>
+	<header class="home-header">
+		<nav class="navbar navbar-default navbar-fixed-top">
+		  <div class="container">
+		    <ul class="nav nav-pills">
+				  <li role="presentation" class="active"><a href="#">Home</a></li>
+				  <li role="presentation"><a href="#">Profile</a></li>
+				  <li role="presentation"><a href="#">Messages</a></li>
+				</ul>
+		  </div>
+		</nav>
+	</header>
+
+	<div class="middle">
+		<div class="container">
+			<div class="row">
+				<aside class="col-md-4">
+					<ul class="left-menu">
+						<li><a href="">text1</a></li>
+						<li><a href="">text2</a></li>
+						<li><a href="">text3</a></li>
+						<li><a href="">text4</a></li>
+						<li><a href="">text5</a></li>
+						<li><a href="">text6</a></li>
+					</ul>
+				</aside>
+				<div class="content col-md-8">
+					<p> Hello world </p>
+				</div>
+			</div>
+		</div>		
+	</div>
+	<footer class="home-footer">
+		
+	</footer>
 </body>
 </html>
